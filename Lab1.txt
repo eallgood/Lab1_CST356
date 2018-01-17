@@ -1,25 +1,25 @@
-1.1) – 
-1.2) – 
-1.3) The “About” method of the “Home” controller was executed.
-1.4) –
-1.5) The program interprets “Home” to be an object in the scope of the application and “About” to be some member (or member function call) of “Home.” When executed, in this case, Home.About() loads the corresponding .cshtml file to the browser.
+1.1) -
+1.2) -
+1.3) The "About" method of the "Home" controller was executed.
+1.4) -
+1.5) The program interprets "Home" to be an object in the scope of the application and "About" to be some member (or member function call) of "Home." When executed, in this case, Home.About() loads the corresponding .cshtml file to the browser.
 
 2.1) The About() method generates the about page.
-2.2) “About.cshtml” is being displayed.
-2.3) It is found in “~/Views/Home/About.cshtml.”
+2.2) "About.cshtml" is being displayed.
+2.3) It is found in "~/Views/Home/About.cshtml."
 2.4) The program will look in the Home folder to find the content that the HomeController generates. It will pick the file that matches the name of the function that is being executed.
-2.5) – 
-2.6) – 
-2.7) – 
+2.5) - 
+2.6) - 
+2.7) - 
 
-3.1) – 
-3.2) – 
+3.1) - 
+3.2) - 
 3.3) There is no corresponding content page for the any function in PersonController to generate.
-3.4) – 
+3.4) - 
 3.5) The appropriate view is generated.
-3.6) – 
-3.7) – 
+3.6) - 
+3.7) - 
 3.8) It displays the person data that I added.
 
-4.1) – 
-4.2) – 
+4.1) - 
+4.2) - 
